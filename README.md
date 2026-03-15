@@ -1,4 +1,5 @@
 # 每次回家金独子都在装死（非正式名称）
+https://eeuruss.github.io/kim-dokja-always-dies/
 
 本作预期2026/8/3完成
 一人开发，美术由procreate绘制完成，目前使用了rpgmaker mv默认素材和b站上的乌鸦音乐包【https://www.bilibili.com/video/BV1uFcwe1EDV】
