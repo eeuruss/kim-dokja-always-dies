@@ -1597,15 +1597,15 @@ Window_MenuCommand.prototype.addMainCommands = function() {
     if (this.needsCommand('item')) {
         this.addCommand(TextManager.item, 'item', enabled);
     }
-    if (this.needsCommand('skill')) {
-        this.addCommand(TextManager.skill, 'skill', enabled);
-    }
-    if (this.needsCommand('equip')) {
-        this.addCommand(TextManager.equip, 'equip', enabled);
-    }
-    if (this.needsCommand('status')) {
-        this.addCommand(TextManager.status, 'status', enabled);
-    }
+    // if (this.needsCommand('skill')) {
+    //     this.addCommand(TextManager.skill, 'skill', enabled);
+    // }
+    // if (this.needsCommand('equip')) {
+    //     this.addCommand(TextManager.equip, 'equip', enabled);
+    // }
+    // if (this.needsCommand('status')) {
+    //     this.addCommand(TextManager.status, 'status', enabled);
+    // }
 };
 
 Window_MenuCommand.prototype.addFormationCommand = function() {
@@ -1735,10 +1735,12 @@ Window_MenuStatus.prototype.loadImages = function() {
     }, this);
 };
 
+
 Window_MenuStatus.prototype.drawItem = function(index) {
-    this.drawItemBackground(index);
-    this.drawItemImage(index);
-    this.drawItemStatus(index);
+    // this.drawItemBackground(index);
+    // this.drawItemImage(index);
+    // this.drawItemStatus(index);
+    
 };
 
 Window_MenuStatus.prototype.drawItemBackground = function(index) {
@@ -1755,7 +1757,8 @@ Window_MenuStatus.prototype.drawItemImage = function(index) {
     var actor = $gameParty.members()[index];
     var rect = this.itemRect(index);
     this.changePaintOpacity(actor.isBattleMember());
-    this.drawActorFace(actor, rect.x + 1, rect.y + 1, Window_Base._faceWidth, Window_Base._faceHeight);
+    //this.drawActorFace(actor, rect.x + 1, rect.y + 1, Window_Base._faceWidth, Window_Base._faceHeight);
+    //no face in menu
     this.changePaintOpacity(true);
 };
 
@@ -2813,7 +2816,9 @@ Window_SavefileList.prototype.maxVisibleItems = function() {
 
 Window_SavefileList.prototype.itemHeight = function() {
     var innerHeight = this.height - this.padding * 2;
-    return Math.floor(innerHeight / this.maxVisibleItems());
+    //return Math.floor(innerHeight / this.maxVisibleItems());
+    //保存栏高度
+    return 170;
 };
 
 Window_SavefileList.prototype.drawItem = function(index) {
@@ -5744,7 +5749,7 @@ Window_TitleCommand.prototype.windowWidth = function() {
 };
 
 Window_TitleCommand.prototype.updatePlacement = function() {
-    this.x = (Graphics.boxWidth - this.width) / 2;
+    this.x = (Graphics.boxWidth - this.width) / 2 + 250;
     this.y = Graphics.boxHeight - this.height - 96;
 };
 

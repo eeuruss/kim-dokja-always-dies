@@ -3,6 +3,7 @@
 var $plugins =
 [
 {"name":"ULDS","status":true,"description":"无限层显示系统","parameters":{"Default Path":"parallaxes","Default Z":"0.5"}},
-{"name":"GALV_MessageBusts","status":true,"description":"(v.2.6) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"390","Filename Append":""}},
-{"name":"MessageTextSound","status":true,"description":"v1.00 - 为事件的“显示文字”动作添加音效。","parameters":{"Text Sound Interval":"5","Text Sound Name":"Cursor1","Text Sound Volume":"100","Text Sound Pitch":"100","Text Sound Pan":"0"}}
+{"name":"GALV_MessageBusts","status":true,"description":"(v.2.6) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"320","Filename Append":""}},
+{"name":"MessageTextSound","status":true,"description":"v1.00 - 为事件的“显示文字”动作添加音效。","parameters":{"Text Sound Interval":"5","Text Sound Name":"Cursor1","Text Sound Volume":"100","Text Sound Pitch":"100","Text Sound Pan":"0"}},
+{"name":"HideOptions","status":true,"description":"","parameters":{}}
 ];
