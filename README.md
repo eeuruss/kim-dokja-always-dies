@@ -1,5 +1,5 @@
 # 每次回家金独子都在装死（非正式名称）
-https://eeuruss.github.io/kim-dokja-always-dies/
+EPISODE1 -  [无罪证明]https://eeuruss.github.io/kim-dokja-always-dies/
 
 本作预期2026/8/3完成
 一人开发，美术由procreate绘制完成，目前使用了rpgmaker mv默认素材和b站上的乌鸦音乐包【https://www.bilibili.com/video/BV1uFcwe1EDV】
@@ -18,3 +18,4 @@ https://eeuruss.github.io/kim-dokja-always-dies/
 
 - 2026/3/15 :demo v1.3
 - 2026/3/16 :审讯室part，刘众赫新行走图
+- 2026/3/20 :demo episode1 -【无罪证明】已完成，为demo全部部分，log会持续更新
