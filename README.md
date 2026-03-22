@@ -18,6 +18,13 @@ EPISODE1 -  [无罪证明]https://eeuruss.github.io/kim-dokja-always-dies/
 
 可以在issue提交bug
 
+## 本地部署教程
+
+进入文件夹后在终端中打开，python启动
+`python -m http.server`
+本地浏览器访问
+`http://localhost:8000/`
+
 ## log:
 
 - 2026/3/15 :demo v1.3
